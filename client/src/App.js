@@ -65,7 +65,7 @@ function App() {
           <Container>
             <Routes>
               <Route path="/" element={<Home/>}/>
-              <Route path="/blogs" element={<Blogs/>}/>
+              <Route path="/posts" element={<Blogs/>}/>
               <Route path="/login" element={<Login/>}/>
               <Route path="/register" element={<Register/>}/>
               <Route path="/admin" element={<AdminDashboard/>}/>

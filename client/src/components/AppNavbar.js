@@ -22,7 +22,7 @@ export default function AppNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={NavLink} to="/" exact="true">Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/Blogs" exact="true">Blogs</Nav.Link>
+            <Nav.Link as={NavLink} to="/posts" exact="true">Blogs</Nav.Link>
 
             {user ? (
               user.isAdmin ? (
